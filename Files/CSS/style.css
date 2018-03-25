@@ -1,0 +1,135 @@
+
+#cssmenu li {
+	font: 67.5% 'Lucida Sans Unicode', 'Bitstream Vera Sans', 'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+       list-style: none;
+}
+#cssmenu a {
+	background: #533;
+	border-bottom: 1px solid #393939;
+	color: #ccc;
+	display: block;
+	margin: 0;
+	padding: 15px 20px;
+	text-decoration: none;
+	font-weight:normal;
+}
+#cssmenu a:hover {
+	background: #2580a2 url('../Images/hover.gif') left center no-repeat;
+	color: #fff;
+	padding-bottom: 15px;
+}
+
+.btn {
+	background: #533;
+	border-bottom: 1px solid #393939;
+	color: #ccc;
+	display: block;
+	margin: 0;
+	width:80px;
+	
+	padding: 15px 20px;
+	text-decoration: none;
+	font-weight:normal;
+}
+.btn:hover {
+	background: #2580a2 url('../Images/hover.gif') left center no-repeat;
+	color: #fff;
+	padding-bottom: 15px;
+}
+
+.btn1 {
+	background: #533;
+	border-bottom: 1px solid #393939;
+	color: #ccc;
+	display: block;
+	margin: 0;
+	width:170px;
+	
+	padding: 15px 20px;
+	text-decoration: none;
+	font-weight:normal;
+}
+
+.btn1:hover {
+	background: #2580a2 url('../Images/hover.gif') left center no-repeat;
+	color: #fff;
+	padding-bottom: 15px;
+}
+
+
+.btn2 {
+	background: #533;
+	border-bottom: 1px solid #393939;
+	color: #ccc;
+	display: block;
+	margin: 0;
+	width:140px;
+	height:50px;
+	padding: 15px 15px;
+	text-decoration: none;
+	font-weight:normal;
+}
+
+.btn2:hover {
+	background: #2580a2 url('../Images/hover.gif') left center no-repeat;
+	color: #fff;
+	padding-bottom: 15px;
+}
+
+
+.close_button
+            {
+                position:absolute;
+                right:1px;
+                cursor:pointer;
+                border:none;
+                margin-top:-30px;
+            }
+            
+.innerheader
+ {
+	position: absolute;
+	top:0px;
+	height: 200px;
+	width: 800px;
+	left: 130px;
+	background-image: url("../Images/header.png");
+	background-repeat: no-repeat;
+	border: 0px;
+}
+
+
+.logo
+ {
+
+	top:0px;
+	height: 150px;
+	width: 120px;
+	left: 0px;
+	background-image: url("../Images/logo.png");
+	background-repeat: no-repeat;
+	border: 0px;
+}
+
+.background
+ {
+	
+	
+	background-image: url("../Images/Upload123.png");
+}
+
+
+<style>
+
+
+html,
+body { height: 100%; }
+
+body { background-image:url("../Images/bg2.jpg");
+height: 100%;
+}
+</style>
+
+

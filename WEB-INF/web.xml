@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+
+		<!--Admin Related tags-->
+	<servlet>
+		<servlet-name>AdminLogin</servlet-name>
+		<servlet-class>com.admin.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminLogin</servlet-name>
+		<url-pattern>/AdminLogin</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>Counttweets</servlet-name>
+		<servlet-class>com.user.Counttweets</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Counttweets</servlet-name>
+		<url-pattern>/Counttweets</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>Sentimentprocess</servlet-name>
+		<servlet-class>com.user.Sentimentprocess</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Sentimentprocess</servlet-name>
+		<url-pattern>/Sentimentprocess</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>Preprocessingdata</servlet-name>
+		<servlet-class>com.user.Preprocessingdata</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Preprocessingdata</servlet-name>
+		<url-pattern>/Preprocessingdata</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>Uploadexeloriginaldata</servlet-name>
+		<servlet-class>com.user.Uploadexeloriginaldata</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Uploadexeloriginaldata</servlet-name>
+		<url-pattern>/Uploadexeloriginaldata</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Uploadexel</servlet-name>
+		<servlet-class>com.user.Uploadexel</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Uploadexel</servlet-name>
+		<url-pattern>/Uploadexel</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Firstlogin</servlet-name>
+		<servlet-class>com.user.Firstlogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Firstlogin</servlet-name>
+		<url-pattern>/Firstlogin</url-pattern>
+	</servlet-mapping>
+	
+	
+		<servlet>
+		<servlet-name>AdminProfile</servlet-name>
+		<servlet-class>com.admin.Profile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminProfile</servlet-name>
+		<url-pattern>/AdminProfile</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EditProfile</servlet-name>
+		<servlet-class>com.admin.EditProfile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditProfile</servlet-name>
+		<url-pattern>/EditProfile</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>CloudList</servlet-name>
+		<servlet-class>com.admin.CloudList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CloudList</servlet-name>
+		<url-pattern>/CloudList</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>IpList</servlet-name>
+		<servlet-class>com.admin.IpList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IpList</servlet-name>
+		<url-pattern>/IpList</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>Global_Auditing</servlet-name>
+		<servlet-class>com.admin.Global_Auditing</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Global_Auditing</servlet-name>
+		<url-pattern>/Global_Auditing</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Trans</servlet-name>
+		<servlet-class>com.admin.Trans</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Trans</servlet-name>
+		<url-pattern>/Trans</url-pattern>
+	</servlet-mapping>
+	
+	
+	<!--User User tags-->
+	
+	<servlet>
+		<servlet-name>UserLogin</servlet-name>
+		<servlet-class>com.user.UserLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserLogin</servlet-name>
+		<url-pattern>/UserLogin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>NewUser</servlet-name>
+		<servlet-class>com.user.NewUser</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NewUser</servlet-name>
+		<url-pattern>/NewUser</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>Profile</servlet-name>
+		<servlet-class>com.user.Profile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Profile</servlet-name>
+		<url-pattern>/Profile</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EditProfile2</servlet-name>
+		<servlet-class>com.user.EditProfile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditProfile2</servlet-name>
+		<url-pattern>/EditProfile2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ChangePass</servlet-name>
+		<servlet-class>com.user.ChangePass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePass</servlet-name>
+		<url-pattern>/ChangePass</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>UploadFile</servlet-name>
+		<servlet-class>com.user.UploadFile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UploadFile</servlet-name>
+		<url-pattern>/UploadFile</url-pattern>
+	</servlet-mapping>
+		<servlet>
+		<servlet-name>FTPUpload</servlet-name>
+		<servlet-class>com.user.FTPUpload</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FTPUpload</servlet-name>
+		<url-pattern>/FTPUpload</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Pass</servlet-name>
+		<servlet-class>com.util.Pass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Pass</servlet-name>
+		<url-pattern>/Pass</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>DownloadFile</servlet-name>
+		<servlet-class>com.util.DownloadFile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DownloadFile</servlet-name>
+		<url-pattern>/DownloadFile</url-pattern>
+	</servlet-mapping>
+	
+
+	
+		<servlet>
+		<servlet-name>DownloadFiles</servlet-name>
+		<servlet-class>com.user.DownloadFiles</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DownloadFiles</servlet-name>
+		<url-pattern>/DownloadFiles</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>Download</servlet-name>
+		<servlet-class>com.user.Download</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Download</servlet-name>
+		<url-pattern>/Download</url-pattern>
+	</servlet-mapping>
+	
+		
+		<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>com.util.Logout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	<!-- =================================manu======================================== -->
+	
+	
+	<servlet>
+		<servlet-name>UploadexelReviews</servlet-name>
+		<servlet-class>com.user.UploadexelReviews</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UploadexelReviews</servlet-name>
+		<url-pattern>/UploadexelReviews</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Reset</servlet-name>
+		<servlet-class>com.user.Reset</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Reset</servlet-name>
+		<url-pattern>/Reset</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>FakeReviewDetection1</servlet-name>
+		<servlet-class>com.user.FakeReviewDetection1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FakeReviewDetection1</servlet-name>
+		<url-pattern>/FakeReviewDetection1</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>Report</servlet-name>
+		<servlet-class>com.user.Report</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Report</servlet-name>
+		<url-pattern>/Report</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>CalculateReport</servlet-name>
+		<servlet-class>com.user.CalculateReport</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CalculateReport</servlet-name>
+		<url-pattern>/CalculateReport</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>FakeReviewDetection2</servlet-name>
+		<servlet-class>com.user.FakeReviewDetection2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FakeReviewDetection2</servlet-name>
+		<url-pattern>/FakeReviewDetection2</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ViewReview</servlet-name>
+		<servlet-class>com.user.ViewReview</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewReview</servlet-name>
+		<url-pattern>/ViewReview</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ViewGraph</servlet-name>
+		<servlet-class>com.user.ViewGraph</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewGraph</servlet-name>
+		<url-pattern>/ViewGraph</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>DownloadFromHadoop</servlet-name>
+		<servlet-class>com.user.DownloadFromHadoop</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DownloadFromHadoop</servlet-name>
+		<url-pattern>/DownloadFromHadoop</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+</web-app>
